@@ -93,7 +93,7 @@ class PostController extends Controller
         //delete post
         $post->delete();
 
-        //redirect to index
+        //INI DIA
         return redirect()->route('posts.index')->with(['success' => 'Data Berhasil Dihapus!']);
     }
 }
